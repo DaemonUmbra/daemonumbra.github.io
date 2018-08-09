@@ -14,4 +14,4 @@ If you encounter this error during the installation of your Forge Client or Serv
 3. In the Window type: `java -Djava.net.preferIPv4Stack=true -jar [name of the installer].jar`, replacing [name of the installer] with the complete file name of the installer, including the .jar file extension.
     * In Powershell the above command will not work due to syntax differences, so you have two options:
         * Type cmd and press enter to switch to a Command Prompt that will use the existing Powershell window and use the command above as normal
-        * Use this Powershell-Specific command: `Start-Process java -ArgumentList ("-Djava.net.preferIPv4Stack=true","-jar","[name of the installer") -NoNewWindow`, again replacing [name of the installer] as above.
+        * Use this Powershell-Specific command: `Start-Process java -ArgumentList ("-Djava.net.preferIPv4Stack=true","-jar","[name of the installer]") -NoNewWindow`, again replacing [name of the installer] as above.
