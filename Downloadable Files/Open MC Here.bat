@@ -1,0 +1,1 @@
+minecraft.exe --workDir %~dp0

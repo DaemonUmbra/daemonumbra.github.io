@@ -28,6 +28,9 @@
     </header>
 
     <div class="container">
+      {% unless page.url == "/" %}
+      <a href="{{site.url}}">Return to the Homepage</a>
+      {% endunless %}
       <section id="main_content">
         {{ content }}
       </section>
