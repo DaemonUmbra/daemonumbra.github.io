@@ -1,7 +1,6 @@
 ---
-
 layout: mc_default
-
+redirect-from: "/forge"
 ---
 # Forge Pages
 

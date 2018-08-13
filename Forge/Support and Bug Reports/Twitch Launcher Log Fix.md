@@ -1,5 +1,6 @@
 ---
 layout: mc_default
+redirect-from: "/forge/twitch launcher log fix"
 ---
 # Twitch Launcher Log Fix
 

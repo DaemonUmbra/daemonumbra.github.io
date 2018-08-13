@@ -1,5 +1,6 @@
 ---
 layout: mc_default
+redirect-from: "/forge/support and bug reports"
 ---
 # Support and Bug Reports
 
