@@ -1,6 +1,5 @@
 ---
 layout: mc_default
-redirect-from: "/forge/these libraries failed to download"
 ---
 # Libraries Failed to Download
 

@@ -1,6 +1,5 @@
 ---
 layout: mc_default
-redirect-from: "/forge/modder support"
 ---
 # Modder Support
 
