@@ -2,6 +2,7 @@
 layout: mc_default
 ---
 # Libraries Failed to Download
+## This issue has been solved in later versions of the 1.12.2 installer.
 
 If you encounter this error during the installation of your Forge Client or Server, try the following steps:
 

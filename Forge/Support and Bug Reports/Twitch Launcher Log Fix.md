@@ -5,36 +5,23 @@ layout: mc_default
 
 These instructions are Windows only, I need to do more research to get this working on other OS's
 
-1. Find the version of Forge that the pack is using
-2. Locate the JSON for this version in Curse's versions folder
-3. Open that JSON and between the last line of text and the last curly brace ( } ), put this line: `"logging": {}`  
-    e.g:
-    ```json
-    {
-        "other stuff": "Blah blah blah",
-        "mainClass":  "net.minecraft.launchwrapper.Launch"
-    }
-    ```
+1. Take note of the Forge version the pack uses and close the Twitch launcher as well as any open Mojang launcher instances
+2. Locate your Twitch Launcher installation
+3. Locate the "versions" folder
+4. Locate the folder corresponding to the version of Forge that your active pack uses
+5. That folder will have a JSON file, in that file you will need to insert this line: "logging":{}
+    - Note that at least one comma will be required to keep the JSON valid.
+        -  If this is added as the first line the comma will close off the line.
+        -  If this is at the end the previous line will need to be closed off with a comma.
+        -  If this is put in the middle then both commas will be needed.
+6. DO NOT LAUNCH THE PACK WITH TWITCH
+7. Use the appropriate script to launch Minecraft by putting it next to the Mojang launcher executable and running the script
+    -  These scripts use the same launch argument Twitch does, however they will not undo our changes to the version JSON.
+        -  Windows: <a href="../../Downloadable Files/Open MC Here.bat">Open MC Here.bat</a>
+        -  Mac: [Coming Soon]
+8. The log files will be in ``\Documents\[Twitch or Curse]\Instances\[Pack Name]\logs``
 
-    to
-    ```json
-    {
-        "other stuff": "Blah blah blah",
-        "mainClass":  "net.minecraft.launchwrapper.Launch",
-        "logging":  {}
-    }
-    ```
-    Note the comma in the second one.
-4. This is important, DO NOT LAUNCH THE PACK WITH TWITCH, use the batch file linked below, to do this:
-    1. Put the batch file in /Curse/Minecraft/Install/, right next to Minecraft.exe
-    2. Double click it and it should open the launcher with your most recent pack selected
-    3. Run Minecraft as normal and Forge's logs should generate correctly
-
-<a href="../../Downloadable Files/Open MC Here.bat" download>Download Open MC Here.bat</a>  
 Open MC Here.bat contents:
-
 ```bat
 minecraft.exe --workDir %~dp0
 ```
-
-This batch file uses the same launch argument that Twitch does to tell Minecraft's launcher where to look for its files, as they are not in the standard location, however it does this without resetting the version JSONs to Twitch's slightly broken ones (they are missing one line that breaks Forge's logging).
