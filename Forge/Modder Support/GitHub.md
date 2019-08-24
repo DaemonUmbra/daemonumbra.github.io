@@ -9,7 +9,7 @@ When setting up a GitHub repo it might seem easy to just upload everything, howe
     - ``git init``
     - ``git remote add origin [Your Repository's URL]``
         - In the case of GitHub it should look like:  
-          https://<span>GitHub</span>.com/[Your Username]/[Repo Name].git
+          ``https://GitHub.com/[Your Username]/[Repo Name].git``
     - ``git fetch``
     - ``git checkout --track origin/master``
     - ``git stage *``

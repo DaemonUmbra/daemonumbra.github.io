@@ -12,7 +12,7 @@
 
   <body>
 
-    <header style="height:auto;padding:0;">
+    <!-- <header style="height:auto;padding:0;">
       <div class="container">
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
@@ -25,11 +25,11 @@
           <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
         </section>
       </div>
-    </header>
+    </header> -->
 
     <div class="container">
       {% unless page.url == "/" %}
-      <a href="{{site.url}}">Return to the Homepage</a>
+      <a href="{{site.url}}">Return to the Homepage</a><br/>
       {% endunless %}
       <section id="main_content">
         {{ content }}

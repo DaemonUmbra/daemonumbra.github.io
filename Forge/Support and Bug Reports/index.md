@@ -8,4 +8,3 @@ This section is for FAQs and How-To's regarding reporting bugs and requesting su
 [Failed to Bind to Port](./Failed to Bind to Port)  
 [Logs](./Logs)  
 [These Libraries Failed to Download](./These Libraries Failed to Download)  
-[Twitch Launcher Log Fix](./Twitch Launcher Log Fix)
