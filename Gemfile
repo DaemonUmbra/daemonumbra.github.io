@@ -36,3 +36,4 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 # Security Vulnerability Fixes
 gem "nokogiri", ">= 1.10.4"
 gem "rubyzip", ">= 2.0.0"
+gem "activesupport", ">= 4.1.11"
