@@ -2,6 +2,7 @@
 [/..](../)  
 [/COOTSAdult.wav](./COOTSAdult.wav)  
 [/COOTSBetter.wav](./COOTSBetter.wav)  
+[/COOTSBug.wav](./COOTSBug.wav)  
 [/COOTSChuckle.wav](./COOTSChuckle.wav)  
 [/COOTSDumb.wav](./COOTSDumb.wav)  
 [/COOTSHype.wav](./COOTSHype.wav)  
