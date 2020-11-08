@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   some portions of the site will be built before the main page,
   these pages will be directly linked by DaemonUmbra in the proper situations.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://daemonumbra.net" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://daemonumbra.dev" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: daemonumbra
 github_username: daemonumbra
 repository: daemonumbra/daemonumbra.github.io
