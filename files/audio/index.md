@@ -5,6 +5,7 @@
 [/COOTSBug.wav](./COOTSBug.wav)  
 [/COOTSChuckle.wav](./COOTSChuckle.wav)  
 [/COOTSDumb.wav](./COOTSDumb.wav)  
+[/COOTSFast.wav](./COOTSFast.wav)  
 [/COOTSHype.wav](./COOTSHype.wav)  
 [/COOTSScared.wav](./COOTSScared.wav)  
 [/TarillPing.wav](./TarillPing.wav)  
